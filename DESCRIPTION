@@ -1,0 +1,23 @@
+Package: mAPIbuddy
+Type: Package
+Title: Functions to access geolocation, distance matrix, and location recognition APIs
+Version: 0.1.0
+Authors@R: c(
+    person("Michael", "Jensen", email = "mjensen@psrc.org", role = c("aut","cre"))
+  )
+Maintainer: Michael Jensen <mjensen@psrc.org>
+Description: Functions to utilize Bing Maps, Azure Maps and Google Maps APIs for use at PSRC.
+  This package is currently under development.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    xml2,
+    sf
+Suggests: 
+    testthat (>= 3.0.0),
+    R.utils,
+    usethis
+Depends: 
+    R (>= 3.5)
